@@ -1,97 +1,207 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<html lang="ko">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>👓PORTFOLIO_KIM-JI-YOUL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 
+    웹에서 보는 이력서라는 느낌으로 디자인 하였습니다.
+    웹퍼블리셔의 포트폴리오라는 컨셉에 맞추어 이미지와 JS 없이 
+    순수한 HTML/CSS로만 제작 해봤습니다. ( 아이콘은 api사용 )
+    반응형웹사이트이며 mobile first로 작업했습니다. 
+-->
+<body>
+    <div class="res-wrap">
+        <header>
+            <div class="space">
+                    <div class="circle">
+                        <div class="star color1"></div>
+                        <div class="star color2"></div>
+                        <div class="star color3"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star mini"></div>
+                        <div class="star big color3">
+                            <div class="face">
+                                <div class="eye"></div>
+                                <div class="eye"></div>
+                                <div class="mouse"></div>
+                            </div>
+                        </div>
+                        <div class="star huge color1">
+                            <div class="face">
+                                <div class="eye"></div>
+                                <div class="eye"></div>
+                                <div class="mouse"></div>
+                            </div>
+                        </div>
+                    </div><!-- circle -->
+                </div><!-- space -->
+            <h1>KIM JI-YOUL</h1>
+            <p>Web Publisher <span class="gray">&</span></p>
+            <p>Indie Game Developer</p>
+        </header><!-- header -->
+        <div class="main" role="main">
+            <div class="row">
+                <section class="col mobile-bg">
+                    <h2>CONTACT</h2>
+                    <ul class="icon-list contact-list">
+                        <li><span class="icon icon-mail"></span>evashork@naver.com</li>
+                        <li><span class="icon icon-blog"></span><a href="http://blog.naver.com/mojomomo">웹디자인블라블라</a>
+                        </li>
+                        <li><span class="icon icon-phone"></span>010-2555-70006</li>
+                        <!-- <li><span class="icon icon-phone"></span>010-2555-70006</li> -->
+                    </ul>
+                </section><!-- CONTACT -->
+                <section class="col">
+                    <h2>PROFILE</h2>
+                    <p class="profile-text font_sel">안녕하세요. 웹퍼블리셔이자 인디게임개발자인 김지열입니다.
+                        낮에는 웹퍼블리셔, 밤에는 게임개발을 하고 있습니다.
+                        순수한 퍼블리싱 경력은 5년정도이고 2년간의 시스템운영경험이 있습니다.
+                        JAVA JSP SQL 시스템운영을 해왔기에 프로그래머와 협업이 용이하고
+                        단기보다는 장기프로젝트 경험이 많이 있습니다. 또한 웹디자인블로그를 3년간 운영해왔으며
+                        국내웹디자인블로그 최초 방문자 백만을 돌파했습니다.
+                    </p>
+                </section><!-- PROFILE -->
+            </div><!-- row -->
+            <div class="row">
+                <section class="col mobile-bg-blue">
+                    <h2>SKILLS</h2>
+                    <ul class="skill-graph">
+                        <li>
+                            HTML<span class="sr">80%</span>
+                            <div class="graph">
+                                <div class="data skill-html"></div>
+                            </div>
+                        </li>
+                        <li>
+                            Web Accessibility<span class="sr">85%</span>
+                            <div class="graph">
+                                <div class="data skill-acc"></div>
+                            </div>
+                        </li>
+                        <li>
+                            JS<span class="sr">60%</span>
+                            <div class="graph">
+                                <div class="data skill-js"></div>
+                            </div>
+                        </li>
+                        <li>
+                            jQuery<span class="sr">50%</span>
+                            <div class="graph">
+                                <div class="data skill-jq"></div>
+                            </div>
+                        </li>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+                        <li>
+                            Design<span class="sr">70%</span>
+                            <div class="graph">
+                                <div class="data skill-design"></div>
+                            </div>
+                        </li>
+                        <li>
+                            Unity<span class="sr">70%</span>
+                            <div class="graph">
+                                <div class="data skill-unity"></div>
+                            </div>
+                        </li>
+                        <li>
+                            Communication<span class="sr">88%</span>
+                            <div class="graph">
+                                <div class="data skill-com"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section><!-- SKILLS -->
+                <section class="col">
+                    <h2>COMPANY</h2>
+                    <ul class="company-list">
+                        <li>
+                            <span class="year">2009-2010</span>아테크 - SI 웹에이전시
+                            <p>HTML, JS, WebAccessibility</p>
+                        </li>
+                        <li>
+                            <span class="year">2011-2012</span>KIA UCAR - 파견프리랜서
+                            <p>HTML, JS, WebAccessibility, 기획</p>
+                        </li>
+                        <li>
+                            <span class="year">2012-2014</span>SNSOFT - 모바일웹앱 스타트업
+                            <p>MobileWebApp, HTML, JS, DESIGN</p>
+                        </li>
+                        <li>
+                            <span class="year">2014-2017</span>ASPN - 코스콤 유지보수관리
+                            <p>JSP, SQL, HTML, JS, XPlatform</p>
+                        </li>
+                        <li>
+                            <span class="year">2018-2019</span>BSX - Unity 게임개발
+                            <p>iOS, Android - Unity 게임 2개 제작</p>
+                        </li>
+                    </ul>
+                </section><!-- COMPANY -->
+            </div><!-- row -->
+            <div class="row">
+                <section class="col mobile-bg">
+                    <h2>LICENSE</h2>
+                    <ul class="icon-list">
+                        <li><span class="icon icon-card"></span>정보처리기사</li>
+                        <li><span class="icon icon-car"></span>운전면허 1종보통</li>
+                    </ul>
+                </section><!-- LICENSE -->
+                <section class="col">
+                    <h2>PROJECT</h2>
+                    <div class="project-row">
+                        <div class="project-col">
+                            <h3>WEB</h3>
+                            <ul class="project-list">
+                                <li>SK 문자서비스 <span class="work">HTML</span></li>
+                                <li>KRX 코스콤 <span class="work">JSP</span></li>
+                                <li>KIA 유카 <span class="work">HTML</span></li>
+                                <li>경남지방경찰청 <span class="work">HTML</span></li>
+                                <li>마산대학교 <span class="work">HTML</span></li>
+                                <li>선거관리위원회 <span class="work">HTML</span></li>
+                                <li>한국산업안전보건공단 <span class="work">HTML</span></li>
+                                <li>TAKE <span class="work">Bootstrap</span></li>
+                                <li>TOPS <span class="work">Wordpress</span></li>
+                            </ul>
+                        </div><!-- project-col -->
+                        <div class="project-col">
+                            <h3>MOBILE</h3>
+                            <ul class="project-list">
+                                <li>삼성 버블샷 <span class="work">HTML</span></li>
+                                <li>LG 서비스센터 <span class="work">HTML</span></li>
+                            </ul>
+                            <h3>APP</h3>
+                            <ul class="project-list">
+                                <li>키즈튜브 <span class="work">WebApp</span></li>
+                                <li>카드티콘 <span class="work">WebApp</span></li>
+                                <li>KPOPTOP100 <span class="work">WebApp</span></li>
+                            </ul>
+                            <h3>GAME</h3>
+                            <ul class="project-list">
+                                <li>BEAT RANDOM BOX <span class="work">Unity</span></li>
+                                <li>FLIB SB <span class="work">Unity</span></li>
+                            </ul>
+                        </div><!-- project-col -->
+                    </div><!-- project-row -->
+                </section><!-- PROJECT -->
+            </div><!-- row -->
+        </div><!-- main -->
+        <footer>
+            <p>coryright by TACO</p>
+        </footer>
+    </div><!-- res-wrap -->
+</body>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <!-- Fixed navbar -->
-    <header class="navbar navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">TACOstrap</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </header>
-    
-    <div class="spot-header">
-      <div class="container">
-        <!-- Main component for a primary marketing message or call to action -->
-          <h1>TACOstrap</h1>
-          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-      </div> <!-- /container -->
-      <div class="highlite">
-        <pre>
-          <code class="html">
-            <button type="button" class="btn btn-default btn-lg">
-  <span class="glyphicon glyphicon-star"></span> Star
-</button>
-          </code>
-        </pre>
-      </div>  
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-  </body>
 </html>
